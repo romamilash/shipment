@@ -473,7 +473,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-main section.shipment {
+main section.shipments {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -481,7 +481,7 @@ main section.shipment {
 
 main article {
     max-width: 624px;
-    height: 455px;
+    /*height: 455px;*/
     box-shadow: 0 4px 12px 0 #0000001F;
     border-radius: 4px;
     margin-bottom: 50px;
@@ -491,11 +491,11 @@ main article img {
     width: 100%;
 }
 
-main article .card {
-    padding: 30px 35px;
+main article .shipment {
+    padding: 34px 39px;
 }
 
-main article .card h3 {
+main article .shipment h3 {
     font-weight: 400;
     font-size: 28px;
     line-height: 30.72px;
@@ -503,23 +503,28 @@ main article .card h3 {
     margin-bottom: 20px;
 }
 
-main article .card .info {
+main article .shipment .info {
     font-weight: 400;
     font-size: 14px;
     line-height: 15px;
     color: #828282;
 }
 
-main article .card .info:first-child {
+main article .shipment .info:first-child {
     margin-right: 40px;
 }
 
-main article .card .info span {
+main article .shipment .info span {
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     color: #333333;
     text-decoration: underline;
+    white-space: break-spaces;
+}
+
+main article .shipment .info div {
+    width: 100%;
 }
 
 main .pagination {
@@ -529,7 +534,7 @@ main .pagination {
     width: 100%;
 }
 
-main .pagination a, span {
+main .pagination a, main .pagination span {
     margin: 0 10px;
     font-weight: 500;
     font-size: 16px;
@@ -763,4 +768,20 @@ hr {
 .bottom-footer p, a {
     color: #7C85A7;
     margin: 0;
+}
+
+@media (max-width: 1400px) {
+    .commercial-offer-form__left, .commercial-offer-form__right {
+        width: 343px;
+    }
+
+    main article {
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .customers-logo {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
