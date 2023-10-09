@@ -1,0 +1,15 @@
+@media (max-width: 1400px) {
+  .commercial-offer-form__left, .commercial-offer-form__right {
+    width: 343px;
+  }
+
+  main article {
+    max-width: 343px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .customers-logo {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
