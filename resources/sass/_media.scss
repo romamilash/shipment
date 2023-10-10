@@ -12,4 +12,26 @@
   .customers-logo {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .bottom-menu {
+    display: none;
+  }
+
+  .middle-menu__logo {
+    span {
+      display: none;
+    }
+  }
+
+  .top-footer__logo {
+    span {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .commercial-offer-form__left, .commercial-offer-form__right {
+    width: 100%;
+  }
 }
