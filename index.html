@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -11,6 +12,12 @@
 <header>
     <div class="top-menu">
         <div class="container d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="img/menu.svg" alt>
+                </button>
+            </nav>
             <ul class="top-menu__left">
                 <li>
                     <a href="/about">О компании</a>
@@ -90,7 +97,7 @@
         </div>
     </div>
 </header>
-<nav>
+<nav class="navigation">
     <div class="container">
         <ul class="breadcrumbs">
             <li>
@@ -110,7 +117,7 @@
                 <img src="img/otgruzka-1.jpg" alt="Лист 09Г2С-12, 3х1500х3000 мм весом 5т">
                 <div class="shipment">
                     <h3>Лист 09Г2С-12, 3х1500х3000 мм <br> весом 5т</h3>
-                    <div class="d-flex">
+                    <div class="d-flex flex-wrap">
                         <div class="info">
                             <div>Куда отгружено:</div> <span>г. Тюмень</span>
                         </div>
@@ -125,7 +132,7 @@
                 <div class="shipment">
                     <h3>Низколегированная круглая профильная
                         труба 377х11 мм 10ХСНД ГОСТ 32931-2...</h3>
-                    <div class="d-flex">
+                    <div class="d-flex flex-wrap">
                         <div class="info">
                             <div>Куда отгружено:</div> <span>г. Омск</span>
                         </div>
@@ -139,7 +146,7 @@
                 <img src="img/otgruzka-3.jpg" alt="Полоса медная 3x25 М1Т весом 2т">
                 <div class="shipment">
                     <h3>Полоса медная 3x25 М1Т <br> весом 2т</h3>
-                    <div class="d-flex">
+                    <div class="d-flex flex-wrap">
                         <div class="info">
                             <div>Куда отгружено:</div> <span>г. Сургут</span>
                         </div>
@@ -154,7 +161,7 @@
                 <div class="shipment">
                     <h3>Клиновая муфтовая задвижка 15х160 мм
                         31с77нж 25ГЛ ГОСТ 5762-2002 2 шт</h3>
-                    <div class="d-flex">
+                    <div class="d-flex flex-wrap">
                         <div class="info">
                             <div>Куда отгружено:</div> <span>г. Кемерово</span>
                         </div>
@@ -169,7 +176,7 @@
                 <div class="shipment">
                     <h3>Нержавеющая сварочная проволока 4 мм
                         12Х13Т ГОСТ 2246-70 весом 60т</h3>
-                    <div class="d-flex">
+                    <div class="d-flex flex-wrap">
                         <div class="info">
                             <div>Куда отгружено:</div> <span>г. Оренбург</span>
                         </div>
@@ -183,7 +190,7 @@
                 <img src="img/otgruzka-6.jpg" alt="Труба оцинкованная ВГП 15x2.8 мм, L 5950 мм 15 штук">
                 <div class="shipment">
                     <h3>Труба оцинкованная ВГП 15x2.8 мм, L 5950 мм 15 штук</h3>
-                    <div class="d-flex">
+                    <div class="d-flex flex-wrap">
                         <div class="info">
                             <div>Куда отгружено:</div> <span>г. Томск</span>
                         </div>
@@ -219,6 +226,9 @@
 
                 </a>
             </div>
+            <div class="mobile-pagination">
+                <a href="#">Показать ещё <img src="img/show-more.svg" alt></a>
+            </div>
         </section>
         <section class="customers">
             <div class="d-flex justify-content-between align-items-center">
@@ -248,26 +258,25 @@
     <section class="commercial-offer">
         <div class="container">
             <h2>Получить коммерческое предложение</h2>
-            <hr>
             <div class="commercial-offer-form">
                 <div class="commercial-offer-form__left">
                     <p>Наш менеджер перезвонит в течение 30 минут <br> и предложит Вам лучший вариант.</p>
                     <ol>
                         <li>
                             <img src="img/list.svg" alt="Подберем продукцию под Вашу заявку">
-                            Подберем продукцию под Вашу заявку
+                            <span>Подберем продукцию под Вашу заявку</span>
                         </li>
                         <li>
                             <img src="img/credit-card.svg" alt="Предложим оптимальные варианты доставки и оплаты">
-                            Предложим оптимальные варианты доставки и оплаты
+                            <span>Предложим оптимальные варианты доставки и оплаты</span>
                         </li>
                         <li>
                             <img src="img/edit-3.svg" alt="Произведем резку продукции согласно требованиям">
-                            Произведем резку продукции согласно требованиям
+                            <span>Произведем резку продукции согласно требованиям</span>
                         </li>
                         <li>
                             <img src="img/info.svg" alt="Постоянно информируем о ходе выполнения заявки">
-                            Постоянно информируем о ходе выполнения заявки
+                            <span>Постоянно информируем о ходе выполнения заявки</span>
                         </li>
                     </ol>
                 </div>
@@ -388,14 +397,49 @@
         </div>
     </div>
     <div class="bottom-footer">
-        <div class="container d-flex justify-content-between">
+        <div class="container bottom-footer">
             <p>(С) 2022 Спецметалл-Трейд</p>
             <p><a href="#">Сайткрафт</a> - маркетинг на промышленном рынке</p>
         </div>
     </div>
 </footer>
 </body>
+<div class="mobile-menu" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="/about">О компании</a>
+        </li>
+        <li class="nav-item">
+            <a href="/services">Услуги</a>
+        </li>
+        <li class="nav-item">
+            <a href="/shipment">Отгрузки</a>
+        </li>
+        <li class="nav-item">
+            <a href="/delivery">Доставка и оплата</a>
+        </li>
+        <li class="nav-item">
+            <a href="/contacts">Контакты</a>
+        </li>
+    </ul>
+    <span id="close_menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+             viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+        </svg>
+    </span>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+<script>
+    const myCollapse = document.getElementById('navbarNav');
+    const hideButton = document.getElementById('close_menu');
+
+    hideButton.addEventListener('click', () => {
+        myCollapse.classList.remove("show");
+    })
+</script>
 </html>
