@@ -76,6 +76,10 @@
   .top-footer {
     display: none;
   }
+
+  .burger-menu {
+    display: flex!important;
+  }
 }
 
 @media (max-width: 768px) {

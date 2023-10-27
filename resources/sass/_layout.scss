@@ -185,10 +185,6 @@ main {
         line-height: 15px;
         color: $gray-3;
 
-        &:first-child {
-          margin-right: 40px;
-        }
-
         span {
           font-weight: 500;
           font-size: 16px;
@@ -501,6 +497,10 @@ main {
   &.show {
     display: flex;
   }
+}
+
+.burger-menu {
+  display: none!important;
 }
 
 .burger {
