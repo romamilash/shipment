@@ -1,0 +1,311 @@
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-Light.eot');
+  src: local('Cera Pro Light'), local('CeraPro-Light'),
+  url('src/resourcesCera Pro/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-Light.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-Light.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-MediumItalic.eot');
+  src: local('Cera Pro Medium Italic'), local('CeraPro-MediumItalic'),
+  url('src/resourcesCera Pro/CeraPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-MediumItalic.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-MediumItalic.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-RegularItalic.eot');
+  src: local('Cera Pro Regular Italic'), local('CeraPro-RegularItalic'),
+  url('src/resourcesCera Pro/CeraPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-RegularItalic.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-RegularItalic.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-BlackItalic.eot');
+  src: local('Cera Pro Black Italic'), local('CeraPro-BlackItalic'),
+  url('src/resourcesCera Pro/CeraPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-BlackItalic.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-BlackItalic.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-Medium.eot');
+  src: local('Cera Pro Medium'), local('CeraPro-Medium'),
+  url('src/resourcesCera Pro/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-Medium.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-Medium.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-BoldItalic.eot');
+  src: local('Cera Pro Bold Italic'), local('CeraPro-BoldItalic'),
+  url('src/resourcesCera Pro/CeraPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-BoldItalic.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-BoldItalic.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-ThinItalic.eot');
+  src: local('Cera Pro Thin Italic'), local('CeraPro-ThinItalic'),
+  url('src/resourcesCera Pro/CeraPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-ThinItalic.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-ThinItalic.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-LightItalic.eot');
+  src: local('Cera Pro Light Italic'), local('CeraPro-LightItalic'),
+  url('src/resourcesCera Pro/CeraPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-LightItalic.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-LightItalic.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-Black.eot');
+  src: local('Cera Pro Black'), local('CeraPro-Black'),
+  url('src/resourcesCera Pro/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-Black.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-Black.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-Bold.eot');
+  src: local('Cera Pro Bold'), local('CeraPro-Bold'),
+  url('src/resourcesCera Pro/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-Bold.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-Bold.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-Regular.eot');
+  src: local('Cera Pro Regular'), local('CeraPro-Regular'),
+  url('src/resourcesCera Pro/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-Regular.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-Regular.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('src/resourcesCera Pro/CeraPro-Thin.eot');
+  src: local('Cera Pro Thin'), local('CeraPro-Thin'),
+  url('src/resourcesCera Pro/CeraPro-Thin.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesCera Pro/CeraPro-Thin.woff2') format('woff2'),
+  url('src/resourcesCera Pro/CeraPro-Thin.woff') format('woff'),
+  url('src/resourcesCera Pro/CeraPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url('src/resourcesProxima Nova/ProximaNova-Black.eot');
+  src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+  url('src/resourcesProxima Nova/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-Black.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-Black.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url('src/resourcesProxima Nova/ProximaNova-Extrabld.eot');
+  src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+  url('src/resourcesProxima Nova/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-Extrabld.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-Extrabld.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-Extrabld.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url('src/resourcesProxima Nova/ProximaNova-SemiboldIt.eot');
+  src: local('Proxima Nova Semibold Italic'), local('ProximaNova-SemiboldIt'),
+  url('src/resourcesProxima Nova/ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-SemiboldIt.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-SemiboldIt.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-SemiboldIt.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url('src/resourcesProxima Nova/ProximaNovaT-Thin.eot');
+  src: local('Proxima Nova Thin'), local('ProximaNovaT-Thin'),
+  url('src/resourcesProxima Nova/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNovaT-Thin.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNovaT-Thin.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNovaT-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url('src/resourcesProxima Nova/ProximaNova-Light.eot');
+  src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+  url('src/resourcesProxima Nova/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-Light.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-Light.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url('src/resourcesProxima Nova/ProximaNova-BlackIt.eot');
+  src: local('Proxima Nova Black Italic'), local('ProximaNova-BlackIt'),
+  url('src/resourcesProxima Nova/ProximaNova-BlackIt.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-BlackIt.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-BlackIt.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-BlackIt.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('src/resourcesProxima Nova/ProximaNova-BoldIt.eot');
+  src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'),
+  url('src/resourcesProxima Nova/ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-BoldIt.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-BoldIt.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-BoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url('src/resourcesProxima Nova/ProximaNova-ThinIt.eot');
+  src: local('Proxima Nova Thin Italic'), local('ProximaNova-ThinIt'),
+  url('src/resourcesProxima Nova/ProximaNova-ThinIt.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-ThinIt.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-ThinIt.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-ThinIt.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('src/resourcesProxima Nova/ProximaNova-Bold.eot');
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+  url('src/resourcesProxima Nova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-Bold.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-Bold.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('src/resourcesProxima Nova/ProximaNova-RegularIt.eot');
+  src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'),
+  url('src/resourcesProxima Nova/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-RegularIt.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-RegularIt.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-RegularIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url('src/resourcesProxima Nova/ProximaNova-ExtrabldIt.eot');
+  src: local('Proxima Nova Extrabold Italic'), local('ProximaNova-ExtrabldIt'),
+  url('src/resourcesProxima Nova/ProximaNova-ExtrabldIt.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-ExtrabldIt.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-ExtrabldIt.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-ExtrabldIt.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('src/resourcesProxima Nova/ProximaNova-Regular.eot');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+  url('src/resourcesProxima Nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-Regular.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-Regular.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url('src/resourcesProxima Nova/ProximaNova-LightIt.eot');
+  src: local('Proxima Nova Light Italic'), local('ProximaNova-LightIt'),
+  url('src/resourcesProxima Nova/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-LightIt.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-LightIt.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-LightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url('src/resourcesProxima Nova/ProximaNova-Semibold.eot');
+  src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+  url('src/resourcesProxima Nova/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('src/resourcesProxima Nova/ProximaNova-Semibold.woff2') format('woff2'),
+  url('src/resourcesProxima Nova/ProximaNova-Semibold.woff') format('woff'),
+  url('src/resourcesProxima Nova/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
